@@ -9,6 +9,6 @@ def my_parol(n=int(input('Введите число от 3 до 20: '))):
                 parol.append(str(k))
             k = k + 1
         t = t + 1
-    return parol
-result = ''.join(my_parol())
+    return ''.join(parol)
+result = my_parol()
 print(result)
